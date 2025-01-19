@@ -6,20 +6,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
-    <title>Pesquisa</title>
+    <link rel="stylesheet" href="./style.css">    
+    <title>Formulário</title>
 </head>
 <body>
     <div class="container">
-        <h1>Descubra o ano de nascimento</h1>
+        <h1>Validação de número</h1>
+        <h2>HTML e JS</h2>
+        <h3>Atividade - EBAC</h3>
         <form id="formulario">
-            <label for="mes">Idade:</label>
-            <input id="campo_a" type="number" required placeholder="digite idade"/>
-            <label for="ano">Ano atual:</label>
-            <input id="campo_b" type="number" required placeholder="digite o ano"/>
+            <label for="c-a">Campo A:</label>
+            <input id="campo-a" type="number" required placeholder="digite um número"/>
+            <label for="c-b">Campo B:</label>
+            <input id="campo-b" type="number" required placeholder="digite um número maior que primeiro"/>
             <button id="botao" type="submit">Enviar</button> 
         </form>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
