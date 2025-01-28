@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+header {
+    background-color: rgb(183, 66, 85);
+    color:#fff;
+    padding: 16px;
+    border: 2px solid black;
+}
+
+form input{
+    margin-top: 10px;
+    padding: 6px;
+    max-width: 300px;
+    width: 100%
+}
+
+form button {
+    padding: 6px;
+    background-color: rgb(114, 104, 104);
+    color:#fff;
+    border: 2px solid rgb(83, 30, 39);
+}
+
+form button:hover {
+    background-color: rgb(210, 195, 195);
+    color:black;
+    border:2px solid rgb(228, 121, 139);
+    font-style: italic;
+    cursor: pointer;
+}
+
+h2{
+    padding: 16px;
+    font-size: larger;
+    color: darkred;
+}
+
+body {
+    background-color:antiquewhite;
+}
+
+body ul {
+    padding: 16px;
+    margin: auto 100px;
+    background: #ff9999;
+    padding: 20px;
+}
+
+body ul li {
+    background: #ffe5e5;
+    color: darkred;
+    margin: 5px;
+}
+
