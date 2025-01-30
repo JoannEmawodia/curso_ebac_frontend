@@ -1,31 +1,17 @@
-const form = document.getElementById('formulario');
-const inputTarefa = document.getElementById('input-tarefa');
-//const listaTarefa = document.getElementById('lista-tarefa');
-const tarefas = [];
+$(document).ready(function(){
+    $('form').on('submit', function(e){
+        e.preventDefault();
 
-let item = ' ';
+        const inputTarefa = $('#input-tarefa').val();
+        
+        $(`<li>"${inputTarefa}" </li>`).appendTo('ul');
+        
+        $('li').click(function(){
+            $(this).css("text-decoration", "line-through");             
+        });
 
-form.addEventListener('submit', function(e) {
-    e.preventDefault();
-
-    inputTarefa = ' ';
+        $("button").cslick(function(){
+            $('#input-tarefa').empty();
+        });            
+    })
 })
-
-function adicionaItem(){
-    
-    const corpoLinhas = document.querySelector('lista-tarefa');
-    corpoLinhas.innerHTML = item;
-
-
-    if (tarefas.includes(inputTarefa.value)){
-        alert('tarefa ja inclusa');
-    } else {
-        tarefas.push(inputTarefa.value);
-
-        let itens = '<ul>';
-        itens +=`<li> ${inputTarefa.value}</li>`;
-        itens += '</ul>';
-
-        itens += item;
-    }
-}

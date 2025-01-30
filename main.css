@@ -42,18 +42,31 @@ h2{
 
 body {
     background-color:antiquewhite;
+    margin: 20px 250px;
 }
 
 body ul {
-    padding: 16px;
-    margin: auto 100px;
+    padding: 5px;
     background: #ff9999;
-    padding: 20px;
 }
 
 body ul li {
     background: #ffe5e5;
     color: darkred;
-    margin: 5px;
+    margin-left: 50px;
+    
 }
 
+.container {
+background-color: lightgrey;
+width: 800px;
+border: 15px solid rgb(122, 148, 122);
+padding: 50px;
+margin: 20px;
+position: relative;
+text-align: center;
+}
+
+.lista {
+    text-align: left;
+}
