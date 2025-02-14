@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: rgb(241, 243, 245);
+}
+
+.produto {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 500px;
+}
+
+form button{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h1{
+    color:#343a40;;
+}
+
+#linha{
+    background-color: rgb(173, 173, 187);
+    border: 1px solid black
+}
+
+#principal{
+    background-color: rgb(173, 173, 187);
+}
+
+#contato{
+    background-color: rgb(119, 102, 155);
+    border: 1px solid black;
+}
+
+#lateral{
+    background-color: rgb(187, 176, 176);
+    border: 1px solid black;
+}
