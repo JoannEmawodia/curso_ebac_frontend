@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(186, 138, 138);
+  color: rgb(73, 62, 62);
+  font-family: "Montserrat Alternates", sans-serif;
+}
+body h2 {
+  margin-left: 30px;
+}
+body ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+body ul li {
+  list-style: none;
+  padding: 8px;
+}
+body ul li p {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+header {
+  background-color: rgb(73, 62, 62);
+  color: white;
+  font-family: "Playwrite IT Moderna", cursive;
+  text-align: center;
+}
+/*# sourceMappingURL=maps/main.css.map */

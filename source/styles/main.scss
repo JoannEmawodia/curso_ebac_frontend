@@ -1,0 +1,36 @@
+@use 'variaveis';
+
+body{
+    background-color: variaveis.$corPrincipal;
+    color: variaveis.$corSecundaria;
+    font-family: variaveis.$fonteSecundaria;
+
+    h2{
+        margin-left: 30px;
+    }
+    
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        li{
+            list-style: none;
+            padding: 8px;
+            
+            p{
+                font-family: variaveis.$foteEstilizacao;
+                text-align: center;
+                font-size: 30px;
+            }
+        }
+    }
+    
+}
+
+header{
+    background-color: variaveis.$corSecundaria;
+    color: white;
+    font-family: variaveis.$fontePrincipal;
+    text-align: center;
+}
+
