@@ -1,0 +1,15 @@
+.produto__conteudo--imagem {
+  width: 100%;
+}
+.produto__conteudo--nome {
+  font-size: 1.2em;
+  margin: 8px 0;
+}
+.produto__conteudo--descricao {
+  color: gray;
+}
+.is-destaque {
+  border: 2px solid gold;
+  padding: 8px;
+  background-color: #ffff42;
+}
