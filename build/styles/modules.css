@@ -1,14 +1,14 @@
-.produto__conteudo--imagem {
+.produtos__imagem {
   width: 100%;
 }
-.produto__conteudo--nome {
+.produtos__nome {
   font-size: 1.2em;
   margin: 8px 0;
 }
-.produto__conteudo--descricao {
+.produtos__descricao {
   color: gray;
 }
-.is-destaque {
+.is--destaque {
   border: 2px solid gold;
   padding: 8px;
   background-color: #ffff42;
