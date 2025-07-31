@@ -20,4 +20,7 @@ document.addEventListener('DOMContentLoaded', function(){
         campoSeguindo.innerHTML = json.following;
         botaoLink.href = json.html_url;
     })
+    .catch(function(erro){
+        document.getElementById("mensagem-erro").innerHTML = `${"Ocorreu um erro. Tente novamente"}`;
+    })
 })
