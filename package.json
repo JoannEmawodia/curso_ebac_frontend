@@ -1,0 +1,21 @@
+{
+  "name": "oo",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "watch": "babel src --out-dir dist --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "brwowserslist": "> 0.25%",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "watch": "^1.0.2"
+  }
+}
